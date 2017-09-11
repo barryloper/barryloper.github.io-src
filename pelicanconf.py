@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Barry Loper'
-SITENAME = 'Blog'
+SITENAME = 'Barry Loper'
 SITEURL = ''
 
 PATH = 'content'
@@ -28,6 +28,7 @@ AUTHOR_FEED_RSS = None
 # Social widget
 #SOCIAL = (('You can add links in your config file', '#'),
 #          ('Another social link', '#'),)
+SOCIAL = (('github', 'https://github.com/barryloper'), ('twitter', 'https://twitter.com/barrymloper'),)
 
 DEFAULT_PAGINATION = False
 
